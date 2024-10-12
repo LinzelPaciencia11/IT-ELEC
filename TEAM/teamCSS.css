@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('cafe2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 0;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(51, 51, 51, 0.8);
+    padding: 2px 5px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo i {
+    font-size: 20px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    color: #fff;
+    font-size: 24px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #daa06d;
+}
+
+/* Review Section */
+.reviews-section {
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 50px 20px;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Times New Roman', serif;
+}
+
+.reviews-section h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #8B4513;
+    margin-bottom: 40px;
+}
+
+.reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.review-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin-bottom: 30px;
+    padding: 20px;
+    position: relative;
+}
+
+.review-card h3 {
+    font-size: 22px;
+    color: #555;
+}
+
+.review-card p {
+    font-size: 16px;
+    color: #777;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.review-card span {
+    font-size: 14px;
+    color: #888;
+}
+
+.rating {
+    color: #ffcc00;
+    margin-left: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(51, 51, 51, 0.8);
+    padding: 20px 40px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+footer h4 {
+    padding: 1px 5px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer button:hover {
+    background-color: #b87333;
+}
